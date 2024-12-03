@@ -114,6 +114,7 @@ header {
     color:white;
     display: flex;
     align-items: center;
+	text-align: center;
     justify-content: left;
     margin-top: 100%;
 	white-space: pre-wrap;
