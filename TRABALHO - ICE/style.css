@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Newsreader");
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 header {
@@ -9,7 +13,7 @@ header {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    height: 108px; ;
+    height: 108px;
     max-width: 100%;
     background-color: #194281;
 
@@ -22,7 +26,7 @@ header {
     font-family: 'Newsreader';
     font-size: 28pt;
     color: white;
-    
+
 }
 
 .logo p {
@@ -33,60 +37,94 @@ header {
 }
 
 .nav {
-    
-    overflow: hidden;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    height: 34px;
+    height: 80px;
     max-width: 100%;
-    background-color:#4684D6;
+    background-color: #4684D6;
+
 }
 
-.nav button{
+.nav button {
 
     font-family: 'Newsreader';
     font-size: 13pt;
     text-align: center;
-    color:white;
+    color: white;
     margin: auto;
-    background-color:#4684D6;
+    background-color: #4684D6;
     border: none;
     padding: 12px
 }
 
-.nav button:hover{
 
- background-color:#194281;
+.btn {
+    font-family: 'Newsreader';
+    font-size: 13pt;
+    text-align: center;
+    color: white;
+    margin: auto;
+    background-color: #4684D6;
+    border: none;
+    padding: 12px
+}
+
+.nav button:hover {
+
+    cursor: pointer;
+    background-color: #194281;
 
 }
 
-.search-bar input{
+.search-bar {
 
+    display: inline-flex;
+
+}
+
+.search-bar input {
+
+    display: flex;
     border-radius: 25px;
     width: 368px;
     height: 32px;
     padding: 0px;
-    background-color:#D9D9D9;
+    background-color: #D9D9D9;
     margin-right: 15px;
     border: none;
 
 }
 
+.search-bar button {
+    margin-right: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+.search-bar button:hover {
+    cursor: pointer;
+}
+
 .imagens {
 
-    margin:auto;
-    margin-top : 5%;
+    margin: auto;
+    margin-top: 5%;
     height: 175px;
-    width: 1018px;
+    width: 90%;
     background-color: #D9D9D9;
 }
 
 .noticia1 {
 
     margin-left: 10px;
-    margin-top : 5%;
+    margin-top: 5%;
     height: 314px;
     width: 249px;
     background-color: #D9D9D9;
@@ -108,10 +146,10 @@ header {
 
 .footer {
 
-    background-color:#194281;
+    background-color: #194281;
     height: 115px;
     width: 100%;
-    color:white;
+    color: white;
     display: flex;
     align-items: center;
 	text-align: center;
@@ -119,5 +157,37 @@ header {
     margin-top: 100%;
 	white-space: pre-wrap;
     white-space: pre-wrap;
+
 }
 
+.dropdown {
+    overflow: hidden;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #194281;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
