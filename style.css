@@ -287,7 +287,7 @@ header {
     background-position: center;
 }
 
-.botao {
+.linker {
 
     position: absolute;
     top: 90%;
@@ -302,6 +302,6 @@ header {
     color: black;
 }
 
-.botao:visited {
+.linker:visited {
     text-decoration: none;
 }
