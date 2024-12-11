@@ -150,8 +150,9 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
-    padding: 50px;
+    padding: 130px;
     justify-content: bottom;
+	margin-bottom: 10%;
 }
 
 .news-item {
@@ -199,8 +200,9 @@ header {
     margin-left: 0 0 10px;
     flex-wrap: wrap;
     gap: 40px;
-    padding: 50px;
+    padding: 130px;
     justify-content: bottom;
+	margin-bottom: -15%;
 }
 
 .section-title h1 {
@@ -209,7 +211,7 @@ header {
 }
 
 .section-title hr {
-    width: 70%;
+    width: 101%;
     margin: 5px;
     border: 3px solid #007BFF;
 }
@@ -219,7 +221,7 @@ header {
     margin-left: 0 0 10px;
 	flex-wrap: wrap;
     gap: 10px;
-    padding: 6px;
+    padding: 85px;
     justify-content: bottom;
 }
 
@@ -228,11 +230,11 @@ header {
     color: #333;
 	text-align: bottom;
 	padding: 45px;
-	margin-bottom: -7%;
+	margin-bottom: -8%;
 }
 
 .edits-title hr {
-    width:70%;
+    width: 93%;
     margin: 50px;
     border: 3px solid #007BFF;
 }
@@ -266,6 +268,7 @@ header {
     gap: 70px;
     padding: 50px;
     justify-content: bottom;
+	margin-top: -4%;
 }
 
 .edit-item {
