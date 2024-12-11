@@ -8,7 +8,16 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 125vh;
+    margin: 0;
+}
 
+main {
+    flex: 1;
+}
 
 header {
 
@@ -152,7 +161,7 @@ header {
     gap: 70px;
     padding: 130px;
     justify-content: bottom;
-	margin-bottom: 10%;
+    margin-bottom: 10%;
 }
 
 .news-item {
@@ -202,7 +211,7 @@ header {
     gap: 40px;
     padding: 130px;
     justify-content: bottom;
-	margin-bottom: -15%;
+    margin-bottom: -15%;
 }
 
 .section-title h1 {
@@ -219,7 +228,7 @@ header {
 .edits-title {
     text-align: bottom;
     margin-left: 0 0 10px;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 10px;
     padding: 85px;
     justify-content: bottom;
@@ -228,9 +237,9 @@ header {
 .edits-title h1 {
     font-size: 2em;
     color: #333;
-	text-align: bottom;
-	padding: 45px;
-	margin-bottom: -8%;
+    text-align: bottom;
+    padding: 45px;
+    margin-bottom: -8%;
 }
 
 .edits-title hr {
@@ -242,7 +251,7 @@ header {
 .calen-title {
     text-align: bottom;
     margin-left: 0 0 10px;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 10px;
     padding: 85px;
     justify-content: bottom;
@@ -251,9 +260,9 @@ header {
 .calen-title h1 {
     font-size: 2em;
     color: #333;
-	text-align: bottom;
-	padding: 45px;
-	margin-bottom: -8%;
+    text-align: bottom;
+    padding: 45px;
+    margin-bottom: -8%;
 }
 
 .calen-title hr {
@@ -291,7 +300,7 @@ header {
     gap: 70px;
     padding: 50px;
     justify-content: bottom;
-	margin-top: -4%;
+    margin-top: -4%;
 }
 
 .edit-item {
@@ -336,11 +345,10 @@ header {
     width: 100%;
     color: white;
     display: flex;
+    flex-direction: row;
+    text-align: left;
     align-items: center;
-    text-align: center;
     justify-content: left;
-    margin-top: 0%;
-    white-space: pre-wrap;
     white-space: pre-wrap;
 
 }
@@ -414,7 +422,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-	margin-bottom: 5%;
+    margin-bottom: 5%;
 
     table {
         width: 30em;
