@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Newsreader");
+
+.faleconosco {
+
+    font-family: 'Newsreader';
+    font-size: 19pt;
+    color: #4684D6;
+    margin-top: 1.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+
+
+.titulo {
+
+    font-size: 19pt;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.subtitulo {
+
+    font-size: 15pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+
+}
+
+.texto {
+
+    text-align: justify;
+    font-size: 13pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+
+}
+
+.formulario {
+
+    text-align: justify;
+    font-size: 13pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+
+}
+
+input {
+
+    display: flex;
+    width: 368px;
+    height: 32px;
+    padding: 0px;
+    background-color: #e9e2e2;
+    margin-right: 15px;
+    border: none;  
+}
+textarea {
+
+    display: flex;
+    width: 368px;
+    height: 150px;
+    padding: 0px;
+    background-color: #e9e2e2;
+    margin-right: 15px;
+    border: none;  
+}
+
+.enviar {
+    
+    width: 50px;
+    height: 40px;
+    padding: 0px;
+    margin-bottom: 2%;
+    margin-right: 50px;
+    border-radius: 5px;
+    background-color: #194281;
+    color: white;
+
+}
+
+.social-media {
+
+    gap: 30px;
+    padding: 0px;
+   
+}
+
+.social-media a svg{
+
+    height: 32px;
+    fill: #194281;
+    padding: 0px;
+    
+
+}
+
+.footer {
+
+    background-color: #194281;
+    height: 115px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+    margin-top: 100%;
+    white-space: pre-wrap;
+    white-space: pre-wrap;
+
+}
